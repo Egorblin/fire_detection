@@ -1,4 +1,3 @@
-torch==1.11.0
 Cython
 matplotlib
 numpy
@@ -11,5 +10,7 @@ torchvision
 tqdm
 seaborn
 pandas
+torch
+torch
 ipython
 psutil
