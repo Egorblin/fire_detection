@@ -20,6 +20,6 @@ tensorboard>=2.4.1
 # comet
 
 # Other
-# seaborn
-# ipython
-# 
+seaborn
+ipython
+psutil
