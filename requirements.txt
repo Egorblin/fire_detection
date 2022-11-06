@@ -10,6 +10,6 @@ torchvision
 tqdm
 seaborn
 pandas
-torch
+torch==1.11.0
 ipython
 psutil
