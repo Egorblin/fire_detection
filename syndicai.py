@@ -13,7 +13,7 @@ class PythonPredictor:
 
     def __init__(self, config):
         """ Download pretrained model. """
-        self.model = torch.load('model.pt')
+        self.model = torch.load('model.pth')
 
     def predict(self, payload):
         """ Run a model based on url input. """
