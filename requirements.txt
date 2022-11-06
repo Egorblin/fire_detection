@@ -18,3 +18,8 @@ tqdm>=4.64.0
 tensorboard>=2.4.1
 # clearml>=1.2.0
 # comet
+
+# Other
+# seaborn
+# ipython
+# 
