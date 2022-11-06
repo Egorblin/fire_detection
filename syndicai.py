@@ -13,7 +13,7 @@ class PythonPredictor:
 
     def __init__(self, config):
         """ Download pretrained model. """
-        self.model = torch.hub.load('yolov5', 'yolov5x_custom', path='last.pt', source='local').autoshape()
+        self.model = torch.hub.load('ultralytics/yolov5', 'yolov5x_custom', path='last.pt').autoshape()
 
     def predict(self, payload):
         """ Run a model based on url input. """
